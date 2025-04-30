@@ -8,13 +8,12 @@ utilizando um loop for.
 */
 
 let soma = 0;
-let numeros = [
-  parseFloat(prompt("Primeiro número: ")),
-  parseFloat(prompt("Segundo número: ")),
-  parseFloat(prompt("Terceiro número: ")),
-  parseFloat(prompt("Quarto número: ")),
-  parseFloat(prompt("Quinto número: ")),
-];
+let numeros = [];
+for (let i = 0; i < 5; i++) {
+  console.log(numeros);
+  numeros.push(parseFloat(prompt("Dígite um número: ")))
+}
+
 if (numeros.some(isNaN)) return console.log("Dígite números válidos.");
 
 // for (let i = 0; i < 5; i++) {
