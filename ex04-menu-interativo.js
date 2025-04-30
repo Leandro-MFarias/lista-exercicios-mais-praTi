@@ -1,7 +1,9 @@
 const prompt = require("prompt-sync")();
 
-// Aqui decidi usar o Number() pq faço a verificação do 0
-// E também acredito que é mais válido que seja um número ao inves de string nos Cases.
+/*
+  Crie um menu interativo no console que oferece ao usuário a escolha de três opções.
+Utilize switch-case para implementar a lógica de cada opção selecionada.
+*/
 
 let escolha = Number(prompt("Dígite o número 1, 2 ou 3: "))
 console.log(escolha);

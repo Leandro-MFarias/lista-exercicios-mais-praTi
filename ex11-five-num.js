@@ -1,6 +1,11 @@
 const prompt = require("prompt-sync")();
 
-// Comente o Foreach e descomente o for para mudar qual quer usar.
+/*
+  ESCOLHA ENTRE ForEach ou for
+  
+  Escreva um programa que solicita ao usuário 5 números e calcula a soma total
+utilizando um loop for.
+*/
 
 let soma = 0;
 let numeros = [
