@@ -1,10 +1,10 @@
 const prompt = require("prompt-sync")();
 
 console.log("ESCOLHA VALORES DIFERENTES");
-let value1 = prompt("Escolha o primeiro valor: ");
-let value2 = prompt("Escolha o segundo valor: ");
+let value1 = parseInt(prompt("Escolha o primeiro valor: "))
+let value2 = parseInt(prompt("Escolha o segundo valor: "))
 
-if (isNaN(value1) || value1 === "" || isNaN(value2) || value2 === "")
+if (isNaN(value1) || isNaN(value2))
   return console.log("Escolha um valor válido");
 
 if (value1 === value2)

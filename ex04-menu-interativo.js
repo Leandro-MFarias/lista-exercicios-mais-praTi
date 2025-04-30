@@ -5,7 +5,7 @@ const prompt = require("prompt-sync")();
 
 let escolha = Number(prompt("Dígite o número 1, 2 ou 3: "))
 console.log(escolha);
-if (isNaN(escolha) || escolha == 0) return console.log("Escolha um número válido");
+if (isNaN(escolha) || escolha === 0) return console.log("Escolha um número válido");
 
 switch (escolha) {
   case 1:
