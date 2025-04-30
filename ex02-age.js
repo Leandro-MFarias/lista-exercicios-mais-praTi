@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")()
 
-let idade = prompt("Dígite sua idade: ")
-if (isNaN(idade) || idade === '') return console.log('Escolha um número')
+let idade = parseInt(prompt("Dígite sua idade: "))
+if (isNaN(idade)) return console.log('Escolha um número')
 
 if (idade <= 10) {
   console.log("Criança");
