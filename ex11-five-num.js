@@ -3,8 +3,7 @@ const prompt = require("prompt-sync")();
 /*
   ESCOLHA ENTRE ForEach ou for
   
-  Escreva um programa que solicita ao usuário 5 números e calcula a soma total
-utilizando um loop for.
+  Escreva um programa que solicita ao usuário 5 números e calcula a soma total utilizando um loop for.
 */
 
 let soma = 0;

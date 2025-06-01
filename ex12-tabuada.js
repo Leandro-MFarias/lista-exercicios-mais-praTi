@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-// Crie um programa que exibe a tabuada de um número fornecido pelo usuário (de 1 a 10)utilizando um loop for.
+// Crie um programa que exibe a tabuada de um número fornecido pelo usuário (de 1 a 10) utilizando um loop for.
 
 function tabuada() {
   let num = parseInt(prompt("Escolha a tabuada: "));

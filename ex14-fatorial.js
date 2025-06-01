@@ -1,8 +1,7 @@
 const prompt = require("prompt-sync")();
 
 /*
-  Crie um programa que calcula o fatorial de um número fornecido pelo usuário
-utilizando um loop for ou while.
+  Crie um programa que calcula o fatorial de um número fornecido pelo usuário utilizando um loop for ou while.
 */
 
 let num = parseInt(prompt("Dígite um número para ver o fatorial dele: "))

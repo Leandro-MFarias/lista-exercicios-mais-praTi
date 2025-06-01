@@ -1,8 +1,7 @@
 const prompt = require("prompt-sync")();
 
 /*
-  Crie um menu interativo no console que oferece ao usuário a escolha de três opções.
-Utilize switch-case para implementar a lógica de cada opção selecionada.
+  Crie um menu interativo no console que oferece ao usuário a escolha de três opções. Utilize switch-case para implementar a lógica de cada opção selecionada.
 */
 
 let escolha = Number(prompt("Dígite o número 1, 2 ou 3: "))

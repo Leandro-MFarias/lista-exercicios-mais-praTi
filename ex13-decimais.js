@@ -1,8 +1,7 @@
 const prompt = require("prompt-sync")();
 
 /*
-  Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer
-a média aritmética desses números.
+  Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números.
 */
 
 let nums = [];
